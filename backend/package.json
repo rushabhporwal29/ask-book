@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A ReactJS based app for asking and getting information about any book",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon node start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushabhporwal29/ask-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushabhporwal29/ask-book/issues"
+  },
+  "homepage": "https://github.com/rushabhporwal29/ask-book#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
