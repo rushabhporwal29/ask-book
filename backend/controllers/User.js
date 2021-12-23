@@ -137,7 +137,7 @@ module.exports={
   user_delete_get,
   user_updaterole_post,
   user_detail_get,
-  user_updaterole_post,
+  user_update_post,
   user_signout_get,
   user_signup_post
 }
